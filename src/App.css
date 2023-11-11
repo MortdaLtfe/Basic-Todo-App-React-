@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #DDD;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.inputForm {
+  margin: 20px 0;
+  
+}
+.inputForm input::placeholder{font-weight: 600;}
+.inputForm input{
+  background-color: white !important;
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+  padding: 5px 0;
+  margin: 0 5px 0 0;
+  text-indent: 5px;
+}
+
+.inputForm button{
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #bababa;
+  color: white;
+  font-weight: 700;
+}
+.todo{
+  width: 150px;
+  overflow-wrap: break-word;
+  margin: 10px 20px;
+  font-size: 18px;
+  font-family: Monospace;
+  letter-spacing: .9px;
+  word-spacing: -4px;
+  list-style: none;
+}
+.done{
+  text-decoration: line-through;
+}
+ul div {
+  display: flex;
+  justify-content: space-between;
+}
+.dele-btn{
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+}
